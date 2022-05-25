@@ -1,0 +1,16 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "title":"Create new banner",
+            "details":"Lorem ipsum",
+            "complete":false
+        },
+        {
+            "id":2,
+            "title":"Create new input component for sign-up",
+            "details":"with animation",
+            "complete": true
+        }
+    ]
+}
