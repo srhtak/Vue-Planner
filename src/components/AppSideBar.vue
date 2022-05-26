@@ -8,9 +8,9 @@
       </div>
 
       <nav class="flex flex-col mt-6 space-y-1">
-        <a
-          href=""
-          class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
+        <router-link
+          :to="{ name: 'Home' }"
+          class="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,10 +33,10 @@
           </svg>
 
           <span class="ml-3 text-sm font-medium"> Projects </span>
-        </a>
+        </router-link>
 
-        <a
-          href=""
+        <router-link
+          :to="{ name: 'AddProject' }"
           class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
         >
           <svg
@@ -55,7 +55,7 @@
           </svg>
 
           <span class="ml-3 text-sm font-medium"> Add </span>
-        </a>
+        </router-link>
       </nav>
     </div>
 

@@ -5,12 +5,12 @@ import AddProject from "../views/AddProject.vue";
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "Home",
     component: HomeView,
   },
   {
     path: "/add",
-    name: "project",
+    name: "AddProject",
     component: AddProject,
   },
 ];
@@ -18,6 +18,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  linkActiveClass: "active",
 });
 
 export default router;
