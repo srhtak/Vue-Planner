@@ -59,7 +59,7 @@ export default {
 
         <button
           type="submit"
-          class="w-full text-center py-3 rounded bg-green text-white font-bold bg-green-400 focus:outline-none my-1"
+          class="w-full text-center py-3 rounded bg-green text-white font-bold bg-blue-400 focus:outline-none my-1"
         >
           Edit
         </button>

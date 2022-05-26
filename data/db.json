@@ -9,13 +9,13 @@
     {
       "id": 2,
       "title": "Create new input component for sign-up",
-      "details": "with animation denemeeeeeeeee",
-      "complete": true
+      "details": "with animation",
+      "complete": false
     },
     {
       "title": "asdfas",
       "details": "dfasdfasdfadsf",
-      "complete": false,
+      "complete": true,
       "id": 5
     },
     {
@@ -27,7 +27,7 @@
     {
       "title": "Serhat",
       "details": "Deneme",
-      "complete": false,
+      "complete": true,
       "id": 8
     }
   ]

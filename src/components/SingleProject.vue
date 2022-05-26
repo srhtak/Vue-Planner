@@ -29,7 +29,7 @@ export default {
 
 <template>
   <div
-    class="all m-2 relative border-gray-100 border-1 rounded-md p-6 bg-gradient-to-r transform transition duration-500 hover:scale-110"
+    class="all m-2 relative shadow-md rounded-md p-6 bg-gradient-to-r transform transition duration-500 hover:scale-110"
     :class="[project.complete ? complete : todo]"
   >
     <h1
