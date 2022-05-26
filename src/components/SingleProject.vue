@@ -18,8 +18,7 @@ export default {
     },
     toggleComplete() {
       this.axios
-        .put(this.url, {
-          ...this.project,
+        .patch(this.url, {
           complete: !this.project.complete,
         })
         .then(this.$emit("complete", this.project.id));

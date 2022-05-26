@@ -4,7 +4,19 @@ export default {
     return {
       title: "",
       details: "",
+      url: "http://localhost:3000/projects/",
     };
+  },
+  methods: {
+    handleSubmit() {
+      let project = {
+        title: this.title,
+        details: this.details,
+        complete: false,
+      };
+
+      this.axios.post(this.url, project).then(this.$router.push("/"));
+    },
   },
 };
 </script>
