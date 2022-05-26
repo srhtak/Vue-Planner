@@ -29,7 +29,7 @@ export default {
 
 <template>
   <div
-    class="all m-2 relative border-gray-100 border-1 rounded-md p-6 bg-gradient-to-r"
+    class="all m-2 relative border-gray-100 border-1 rounded-md p-6 bg-gradient-to-r transform transition duration-500 hover:scale-110"
     :class="[project.complete ? complete : todo]"
   >
     <h1
@@ -39,7 +39,9 @@ export default {
       {{ project.title }}
     </h1>
     <div class="absolute top-2 right-3">
-      <span class="material-icons"> edit </span>
+      <router-link :to="{ name: 'EditProject', params: { id: project.id } }">
+        <span class="material-icons"> edit </span>
+      </router-link>
       <span @click="toggleComplete" class="material-icons"> done </span>
       <span @click="deleteProject" class="material-icons"> delete</span>
     </div>

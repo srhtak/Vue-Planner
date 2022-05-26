@@ -1,9 +1,10 @@
 <template>
   <div class="flex">
     <side-bar />
-    <div class="text-red-500 text-center" v-if="loading">loading....</div>
-    <div class="flex w-2/3 flex-col items-center" v-else>
-      <div data-aos="fade-up" v-for="project in data" :key="project.id">
+
+    <div class="flex w-2/3 flex-col justify-center items-center">
+      <div class="text-red-500 text-center" v-if="loading">loading....</div>
+      <div v-else data-aos="fade-up" v-for="project in data" :key="project.id">
         <single-project
           :project="project"
           @complete="handleComplete"

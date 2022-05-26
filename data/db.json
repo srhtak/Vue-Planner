@@ -9,20 +9,26 @@
     {
       "id": 2,
       "title": "Create new input component for sign-up",
-      "details": "with animation",
+      "details": "with animation denemeeeeeeeee",
       "complete": true
     },
     {
-      "title": "hsdfhdsf",
-      "details": "jsdjfasdjfjasdf",
+      "title": "asdfas",
+      "details": "dfasdfasdfadsf",
       "complete": false,
-      "id": 3
+      "id": 5
     },
     {
-      "title": "deneme",
-      "details": "hsdhdshfasdfdsaf",
+      "title": "asdfasdf",
+      "details": "sdfasdfasdfasdf",
+      "complete": true,
+      "id": 7
+    },
+    {
+      "title": "Serhat",
+      "details": "Deneme",
       "complete": false,
-      "id": 4
+      "id": 8
     }
   ]
 }
